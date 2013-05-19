@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/semc/es209ra/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/semc/es209ra/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/semc/es209ra/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/semc/es209ra/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/semc/es209ra/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/semc/es209ra/proprietary/lib/libdiag.so:system/lib/libdiag.so \
@@ -74,4 +75,25 @@ PRODUCT_COPY_FILES += \
     vendor/semc/es209ra/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/semc/es209ra/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/semc/es209ra/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-    vendor/semc/es209ra/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so
+    vendor/semc/es209ra/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
+	vendor/semc/es209ra/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+	vendor/semc/es209ra/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+	vendor/semc/es209ra/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+	vendor/semc/es209ra/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+	vendor/semc/es209ra/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxrv9Dec.so:system/lib/libOmxrv9Dec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxWmaDec.so:system/lib/ibOmxWmaDec.so \
+	vendor/semc/es209ra/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+	vendor/semc/es209ra/proprietary/lib/liboverlay.so:system/lib/liboverlay.so \
+	vendor/semc/es209ra/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so
